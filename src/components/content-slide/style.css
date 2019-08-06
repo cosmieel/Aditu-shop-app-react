@@ -1,0 +1,114 @@
+@import "../../../node_modules/slick-carousel/slick/slick.css";
+@import "../../../node_modules/slick-carousel/slick/slick-theme.css";
+
+.content-slide {
+    background-color: #fff;
+    min-height: 19rem;
+    box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.08);
+}
+
+/* .slide-products-cards {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+} */
+
+.slide-card {
+    min-width: 34rem;
+    width: 100%;
+    margin: 0 auto;
+    height: 19rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.slide-car__action-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    margin-right: 1rem;
+}
+
+.slide-products-cards__item {
+    transition: all 0.5s ease-in-out;
+}
+
+.slide-products-cards__item h5 {
+    color: #afafaf;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 18px;
+    line-height: 20px;
+    text-transform: uppercase;
+    margin-bottom: 2.1rem;
+}
+
+.shop-btn {
+    background-color: #3cc395;
+    color: #fff;
+    border-radius: 3px;
+    width: 59px;
+    height: 32px;
+    border: none;
+
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 14px;
+    line-height: 14px;
+    text-transform: uppercase;
+
+    transition: all 0.3s;
+}
+
+.shop-btn:hover {
+    background-color: #fff;
+    color: #3cc395;
+    box-shadow: 0px 0px 5px 5px #3cc3968f;
+}
+
+.сhevronRight,
+.сhevronLeft {
+    position: absolute;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+  
+.сhevronRight {
+    top: 30%;
+    right: -10.5rem;
+}
+
+.сhevronLeft {
+    top: 30%;
+    left: -10.5rem;
+}
+
+.сhevronRight:hover,
+.сhevronLeft:hover {
+    transform: scale(1.2);
+}
+
+.сhevronRight:active,
+.сhevronLeft:active {
+    transform: scale(1.3);
+}
+
+.center-mode .slick-center {
+    border-right: 1px solid #e7e7e7;
+    border-left: 1px solid #e7e7e7;
+}
+
+@media (max-width: 750px) {
+    .slide-card {
+        padding: 0 10rem;
+    }
+}
+
+@media (max-width: 500px) {
+    .slide-card {
+        padding: 0 0rem;
+    }
+}

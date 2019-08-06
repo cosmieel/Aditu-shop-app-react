@@ -1,0 +1,128 @@
+@import "../../../node_modules/slick-carousel/slick/slick.css";
+@import "../../../node_modules/slick-carousel/slick/slick-theme.css";
+
+.header-main {
+    /* min-height: 44.6rem;
+    height: 100%; */
+    margin-bottom: 5rem;
+}
+
+.header-main__slider {
+    padding-top: 6.7rem;
+    
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.header-main__slider_pic img {
+    padding-left: 7.8rem;
+}
+
+.header-main__slider_text {
+    padding-top: 1.2rem;
+    padding-left: 10.1rem;
+    padding-right: 16.2rem;
+}
+
+.header-main__slider_text h3 {
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 45px;
+    line-height: 48px;
+    text-transform: uppercase;
+    padding-bottom: 2.0rem;
+}
+
+.header-main__slider_text p {
+    font-size: 14px;
+    line-height: 1.8;
+    padding-bottom: 2.9rem;
+}
+
+.header-main__slider_text button {
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 22px;
+    line-height: 22px;
+    color: #ffffff;
+    text-transform: uppercase;
+    border: 3px solid #fff;
+    border-radius: 8px;
+    background-color: transparent;
+    padding: 1rem 2.5rem;
+    margin-bottom: 2rem;
+
+    
+}
+
+.header-main__slider_text button:hover {
+    background-color: #fff;
+    color: #38c3b8;
+    transition: all 0.5s; 
+
+    box-shadow: 0px 0px 7px 7px #78e6db;
+}
+
+.slick-dots {
+    bottom: -15px;
+}
+
+.slick-dots li {
+    margin: 0;
+    width: 22px;
+}
+
+.slick-dots li button:before {
+    font-size: 10px;
+    width: 20px;
+    opacity: 1;
+    color: #fff;
+}
+
+.slick-dots li.slick-active button::before {
+    opacity: 0.5;
+    color: #fff;
+}
+
+@media (max-width: 700px) {
+
+    .header-main__slider {
+        flex-direction: column;
+        align-items: center;
+        padding-top: 1rem;
+    }
+
+   
+
+    .header-main__slider_pic img {
+        width: 70%;
+        height: 70%;
+        padding-left: 0;
+        margin: 0 auto;
+    }
+    
+    .header-main__slider_text {
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+        text-align: center;
+    }
+    
+    .header-main__slider_text h3 {
+        font-size: 28px;
+        line-height: 34px;
+    }
+    
+    .header-main__slider_text p {
+        font-size: 14px;
+        line-height: 1.5;
+        padding-bottom: 2rem;
+    }
+    
+    .header-main__slider_text button {
+        font-size: 18px;
+        line-height: 18px;
+        padding: 0.5rem 2rem;
+    
+        
+    }
+}
